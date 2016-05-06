@@ -18,5 +18,17 @@ github_username:  jcarlson
 # Build settings
 markdown: kramdown
 
+# Add custom plugins and gems
 gems:
   - octopress-debugger
+
+# DRY up some configuration
+defaults:
+  - scope:
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
