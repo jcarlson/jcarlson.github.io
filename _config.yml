@@ -17,3 +17,6 @@ github_username:  jcarlson
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-debugger
