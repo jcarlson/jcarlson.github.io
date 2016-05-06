@@ -1,3 +1,8 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore Jekyll artifacts
+_site
+.sass-cache
+.jekyll-metadata
+
